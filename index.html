@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="umbrella"> <img id="myImg" src="Yellow.png" alt="umbrella"></img>
+        
+        <img id="logo" ></img>
+        <!-- <img id="load" src="loader_icon.svg"></img> -->
+        </div><div>
+        
+        </div>
+        
+        <div class="control"> 
+            <h1>Custom Umbrella</h1>
+            <div class="pallet">
+             <button id="colorpink" onclick="myFunction2()" ></button>
+             <button id="coloryellow" onclick="myFunction()"></button>
+             <button id="colorblue" onclick="myFunction3()"></button>
+            </div>
+            <div>
+                <h3>Customize your umbrella</h3>
+                <h4>upload a logo for instant preview</h4>
+                <h5> .png and .jpg files only. Max file size is 5MB</h5>
+                <input type="file" accept="image/jpeg image/png"  id= "myText" style="opacity: 0;" onChange="onUpload()">
+                <div id="upload">
+                <div><img src="upload_icon.svg" class="icon" width="100" height="10" ></div>
+                <h4 id="txt">UPLOAD LOGO</h4></div>
+            </div>
+        </div>
+    </div>
+    <script src="functional.js"></script>
+</body>
+</html>
