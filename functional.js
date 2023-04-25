@@ -1,17 +1,17 @@
 
 function myFunction() {
  
-    document.getElementById("myImg").src = "Yellow.png";
+    document.getElementById("myImg").src = "./assets/Yellow.png";
     document.getElementById("upload").style.backgroundColor="yellow"
     document.getElementById("container").style.backgroundColor="#ffe9a3"
   }
   function myFunction2() {
-   document.getElementById("myImg").src = "Pink.png";
+   document.getElementById("myImg").src = "./assets/Pink.png";
    document.getElementById("upload").style.backgroundColor="pink"
    document.getElementById("container").style.backgroundColor="#F3D1DD"
   }
   function myFunction3() {
-    document.getElementById("myImg").src = "Blue.png";
+    document.getElementById("myImg").src = "./assets/Blue.png";
     document.getElementById("upload").style.backgroundColor="blue"
     document.getElementById("container").style.backgroundColor=" #7D95FF"
   }
